@@ -1,0 +1,146 @@
+/*css document*/
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 15px;
+
+}
+
+
+.title-area {
+  padding: 10px 0;
+  text-align: center;
+}
+.title {
+  margin-bottom: 30px;
+  font-family: "Open sans", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+}
+.title-info {
+  margin-bottom: 15px;
+}
+.body-area {
+  padding: 20px 0;
+}
+section {
+  padding:80px 0;
+}
+
+
+/*ナビゲーション関係*/
+#navigation {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff8;
+  font-weight: bold;
+  padding: 20px 0;
+}
+#navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+#navigation li {
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  list-style: none;
+  padding: 0 10px;
+}
+#navigation li a {
+  text-decoration: none;
+  color: #000;
+}
+#navigation li a:hover {
+  opacity: 0.5;
+}
+
+
+/*ヘッダー関係*/
+#header {
+  text-align: center;
+  height: 86vh;
+}
+#header-title {
+  font-size: 64px;
+  padding-top: 30vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+
+/*アバウト関係*/
+#about {
+  background-color: #bbb;
+}
+#about .body-area {
+  text-align: center;
+}
+
+
+/*スキル関係*/
+.skill-display {
+  margin: 0 30%;
+  column-count: 2;
+  text-align: center;
+}
+.skill-name {
+  font-size: 16px;
+}
+
+
+/*ワークス関係*/
+#works {
+  background-color: #bbb;
+}
+.card-wrapper {
+  margin-top: 40px;
+  margin-left: 26px;
+  margin-right: 26px;
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card img {
+  width: 100%;
+}
+.card-caption {
+  text-align: center;
+}
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.card-info {
+  font-size: 12px;
+}
+.card-url {
+  font-size: 12px;
+}
+
+
+
+/*アカウント関係*/
+
+
+/*フッター関係*/
+#page-top {
+  padding: 10px 0;
+  background-color: #bbb;
+  text-align: center;
+}
+#page-top a {
+  text-decoration: none;
+  color: #000;
+}
+#page-top a:hover {
+  opacity: 0.5;
+}
+#footer-info {
+  padding: 10px 0;
+  background-color: #000;
+  text-align: center;
+}
